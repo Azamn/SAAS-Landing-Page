@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: Montserrat;
+    margin: 0%;
+    padding: 0%;
+    background-color: #fdfeff;
+}
+
+.nav-section-main{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    height: 100%;
+    background-color:#7030cc;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    margin-top: 2%;
+}
+
+.logo{
+    margin-left: 8% ;
+    height: 50px;
+}
+
+.nav-bar{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-bar-list{
+    /* border: 1px solid white; */
+    margin-left: 10%;    
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+
+
+.list-item{
+    display: flex;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.list li:nth-child(1){
+    color: #1bbcef;
+    font-weight: bold;
+}
+
+.list li:nth-child(1)::after{
+    content: "";
+    background: rgb(254, 45, 45);
+}
+
+
+.list-item:hover{
+    color: #1bbcef;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:1092px) {
+    .nav-bar-list{
+        display: none;
+        /* flex-direction: column; */
+    } 
+}
+
+
+.free-trial{
+    margin-right: 8%;
+}
+
+.free-trial-btn{
+    background: #1bbcef;
+    height: 40px;
+    width: 130px;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+}
+
+.free-trial-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    border-color: #fff;
+}
+
+
+.nav-main-content{
+    height: 100vh;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7rem;
+}
+
+.right-main-content img{
+    height: 100%;
+}
+
+.left-main-content{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.left-main-content h1{
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+
+.left-main-content p{
+    margin-top: -2%;
+    line-height: 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 7%;
+}
+
+@media screen and (max-width:1092px) {
+    .nav-main-content{
+        height: 100%;
+        margin-left: 7%;
+        margin-right: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1rem;
+
+    }
+}
+
+/* ------- main-section ---- */
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 7%;
+    justify-content: space-between;
+    gap: 50rem;
+}
+
+.operating-image img{
+    height: 110%;
+}
+
+.operatig-data{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.operating-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-operating-helpful{
+    display: flex;
+}
+
+
+.oprating-heading{
+    margin-top: 4%;
+}
+
+.oprating-heading h1{
+    font-size: 2.5rem;
+}
+
+.feature-icon img{
+    height: 3%;
+    position: absolute;
+    margin-top: 1.6%;
+}
+
+.feature-data{
+    margin-left: 7%;
+}
+
+@media screen and (max-width:1092px) {
+    .main-section{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}
+
+/* ------ feature ------------ */
+
+.feature{
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-heading h1 {
+    margin-top: -5%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.feature-card{
+    display: flex;
+    margin-top: 5%;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 20px;
+}
+
+.card{
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2);
+}
+
+.card-data{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/liquid-cheese.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}   
+
+.card-img{
+    margin-top: 8%;
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: #faeaeb;
+}
+
+
+.card-img-1{
+    margin-top: 8%;
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: #fbf0ee;
+}
+
+.card-img-2{
+    margin-top: 8%;
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: #e9f4f6;
+}
+
+.card-img-3{
+    margin-top: 8%;
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: #f2e7f5;
+}
+
+.card img{
+    position: relative;
+    margin-top: 24%;
+    margin-left: 24%;
+    overflow: hidden;
+    height: 50%;
+}
+
+.card-data h1{
+    margin-bottom: -5%;
+    color: #fff;
+}
+
+.card-data p{
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width:1092px) {
+
+    .feature{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .feature-heading h1{
+        font-size: 2rem;   
+    }
+
+}
