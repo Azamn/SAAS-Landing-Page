@@ -15,7 +15,7 @@ In this project i have created a SAAS Landing Page. And i have learnt a lot of t
 
 ### My Project is looking like :
 
-![Web Site Image](./screenshot/SAAS-landing-page-new.png)
+![Web Site Image](./screenshot/saas-landing-page.png)
 
 ## Time taken to finish this project
 
@@ -23,5 +23,5 @@ In this project i have created a SAAS Landing Page. And i have learnt a lot of t
 
 ### You can Check it Live on Below Link :
 
-[Project Live Link](https://azam-SAAS-landing-page.netlify.app/)
+[Project Live Link](https://azam-saas-landing-page.netlify.app/)
 
